@@ -1,74 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-body, * {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+body,
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 .page-title {
-    text-align: center;
-    font-size: 2rem;
-    margin: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
 }
 
 table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 2rem auto;
-    font-size: 18px;
-    box-shadow: 3px 2px 6px lightgrey;
-    overflow: hidden;
-    max-width: 768px;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2rem auto;
+  font-size: 18px;
+  box-shadow: 3px 2px 6px lightgrey;
+  overflow: hidden;
+  max-width: 768px;
 }
 
-th, td {
-    padding: 1rem;
-    text-align: left;
-    border-bottom: 1px solid lightgrey;
+th,
+td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid lightgrey;
 }
 
 th {
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 tr:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+}
 
+.button-new {
+  background-color: #ff1d1d;
+  border: none;
+  padding: 0.375rem 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px lightgrey;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  color: white;
+}
+.button-new:hover {
+    background-color: #e60000;
+}
+
+.button-home {
+  background-color: #4CAF50;
+  border: none;
+  padding: 0.375rem 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px lightgrey;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.button-home:hover {
+    background-color: #45a049;
+}
 
 .form-wrapper {
-    font-size: 18px;
-    max-width: 768px;
-    margin: 2rem auto;
-    padding: 2rem;
-    border: solid 1px lightgrey;
-    border-radius: 15px;
-    box-shadow: 3px 2px 6px lightgrey;
+  font-size: 18px;
+  max-width: 768px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: solid 1px lightgrey;
+  border-radius: 15px;
+  box-shadow: 3px 2px 6px lightgrey;
 }
 
-label, input {
-    margin-top: 5px;
-    display: block;
-    font-size: inherit;
+label,
+input {
+  margin-top: 5px;
+  display: block;
+  font-size: inherit;
 }
 
 input[type="text"] {
-    padding: .25rem;
+  padding: 0.25rem;
 }
 
 input[type="submit"] {
-    background-color: lightgrey;
-    border: none;
-    padding: .375rem 1rem;
-    margin-top: 10px;
+  background-color: lightgrey;
+  border: none;
+  padding: 0.375rem 1rem;
+  margin-top: 10px;
 }
